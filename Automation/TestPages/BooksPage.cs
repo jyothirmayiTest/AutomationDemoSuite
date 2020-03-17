@@ -11,10 +11,12 @@ namespace Automation.TestPages
     {
      public void ClickOnBookItem()
         {
+            WaitForReady();
             Driver.FindElement(By.XPath(BooksElements.bookItemXpath)).Click();
         }
         public decimal GetPrice()
         {
+            WaitForReady();
             var priceText = Driver.FindElement(By.XPath(BooksElements.priceXpath)).Text;
             var price = Convert.ToDecimal(priceText);
                 return price;
@@ -22,6 +24,7 @@ namespace Automation.TestPages
 
         public void EnterQty(string qty)
         {
+            WaitForReady();
             Driver.FindElement(By.XPath(BooksElements.qtyXpath)).Clear();
             Driver.FindElement(By.XPath(BooksElements.qtyXpath)).SendKeys(qty);
         }

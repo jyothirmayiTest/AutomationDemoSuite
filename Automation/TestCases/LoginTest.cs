@@ -55,6 +55,7 @@ namespace Automation.TestCases
             loginPageObj.clickOnHyperLink(TestConstants.Books);
             //clicks on a book
             booksPageObj.ClickOnBookItem();
+            booksPageObj.WaitForReady();
             //get the price
             var price = booksPageObj.GetPrice();            
             //Enter Qty

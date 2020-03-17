@@ -66,7 +66,7 @@ namespace Automation.TestPages
 
         public void WaitForReady()
         {
-            WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 0, 10));
+            WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 0, 20));
         }
 
         public void clickOnHyperLink(string linkText)

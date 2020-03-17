@@ -4549,11 +4549,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\usctxfsprd.mmm.com\\ctxprdprofiles$\\UserData\\A6M87ZZ\\Desktop\\Automation\\Automation\\Automation.csproj",
+      "projectUniqueName": "\\\\usctxfsprd.mmm.com\\ctxprdprofiles$\\UserData\\A6M87ZZ\\Documents\\GitHub\\AutomationDemoSuite\\Automation\\Automation.csproj",
       "projectName": "Automation",
-      "projectPath": "\\\\usctxfsprd.mmm.com\\ctxprdprofiles$\\UserData\\A6M87ZZ\\Desktop\\Automation\\Automation\\Automation.csproj",
+      "projectPath": "\\\\usctxfsprd.mmm.com\\ctxprdprofiles$\\UserData\\A6M87ZZ\\Documents\\GitHub\\AutomationDemoSuite\\Automation\\Automation.csproj",
       "packagesPath": "C:\\Users\\A6M87ZZ\\.nuget\\packages\\",
-      "outputPath": "\\\\usctxfsprd.mmm.com\\ctxprdprofiles$\\UserData\\A6M87ZZ\\Desktop\\Automation\\Automation\\obj\\",
+      "outputPath": "\\\\usctxfsprd.mmm.com\\ctxprdprofiles$\\UserData\\A6M87ZZ\\Documents\\GitHub\\AutomationDemoSuite\\Automation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
